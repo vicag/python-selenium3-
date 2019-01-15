@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Copyright IBM Corp. 2006, 2013  All Rights Reserved.              -->
+<ibm-portal-composite>
+	<domain-object name="com.ibm.rcp.installmanifest">
+		<object-data>
+			<install version="9.0.20131214-0312">
+				<installfeature default="true" id="Platform.XPD" required="true" show="false" version="9.0.20131214-0312">
+					<requirements>
+						<feature download-size="1577" id="com.ibm.langware.engine.feature" match="perfect" size="2893" url="jar:${installer.root}/updateSite.zip!/" version="6.2.4.201111100545"/>
+						<feature download-size="4119" id="com.ibm.langware.v5.dic.feature" match="perfect" size="5823" url="jar:${installer.root}/updateSite.zip!/" version="6.2.4.201201141051"/>
+						<feature download-size="525" id="com.ibm.langware.v5.dic.en_AU.feature" match="perfect" size="730" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="515" id="com.ibm.langware.v5.dic.en_GB.feature" match="perfect" size="716" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="532" id="com.ibm.langware.v5.dic.en_US.feature" match="perfect" size="746" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="270" id="com.ibm.langware.v5.dic.en_US_Medical.feature" match="perfect" size="333" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="437" id="com.ibm.langware.v5.dic.fr_CA.feature" match="perfect" size="652" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="4145" id="com.ibm.langware.v27.dic.feature" match="perfect" size="5716" url="jar:${installer.root}/updateSite.zip!/" version="6.2.4.201111100545"/>
+						<feature download-size="332" id="com.ibm.rcp.hunspell.feature" match="perfect" size="995" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="105" id="com.ibm.logging.icl.feature" match="perfect" size="76" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="381" id="com.ibm.mobileservices.isync.db2j.feature" match="perfect" size="349" url="jar:${installer.root}/updateSite.zip!/" version="9.1.3.1-20131002-1404"/>
+						<feature download-size="435" id="com.ibm.mobileservices.isync.feature" match="perfect" size="777" url="jar:${installer.root}/updateSite.zip!/" version="9.1.3.1-20131002-1404"/>
+						<feature download-size="146" id="com.ibm.json4j.feature" match="perfect" size="121" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="195" id="com.ibm.osg.service.cm.feature" match="perfect" size="162" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="199" id="com.ibm.osg.service.metatype.feature" match="perfect" size="169" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="198" id="com.ibm.osg.service.useradmin.feature" match="perfect" size="169" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="90" id="com.ibm.portal.feature" match="perfect" size="73" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="111" id="com.ibm.pvc.jms.feature" match="perfect" size="84" url="jar:${installer.root}/updateSite.zip!/" version="1.1.1.20131002-1404"/>
+						<feature download-size="170" id="com.ibm.pvc.jndi.provider.java.feature" match="perfect" size="140" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="92" id="com.ibm.pvc.jta.feature" match="perfect" size="65" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="140" id="com.ibm.pvc.servlet.feature" match="perfect" size="115" url="jar:${installer.root}/updateSite.zip!/" version="2.5.0.20131002-1404"/>
+						<feature download-size="173" id="com.ibm.pvc.servlet.jsp.feature" match="perfect" size="148" url="jar:${installer.root}/updateSite.zip!/" version="2.1.0.20131002-1404"/>
+						<feature download-size="401" id="com.ibm.pvc.servlet.jsp.jstl.feature" match="perfect" size="375" url="jar:${installer.root}/updateSite.zip!/" version="1.1.1.20131002-1404"/>
+						<feature download-size="3248" id="com.ibm.pvc.webcontainer.feature" match="perfect" size="3480" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1941" id="com.ibm.pvc.webhttpservice.feature" match="perfect" size="1914" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="787" id="com.ibm.pvcws.feature" match="perfect" size="761" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="515" id="com.ibm.pvcws.wss.feature" match="perfect" size="488" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="518" id="com.ibm.rcp.accounts.feature" match="perfect" size="620" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="246" id="com.ibm.rcp.accounts.ui.feature" match="perfect" size="219" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="260" id="com.ibm.rcp.browser.service.feature" match="perfect" size="235" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="138" id="com.ibm.rcp.core.logger.ui.feature" match="perfect" size="110" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="255" id="com.ibm.rcp.database.feature" match="perfect" size="226" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="136" id="com.ibm.rcp.database.derby.feature" match="perfect" size="106" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="889" id="com.ibm.rcp.dombrowser.feature" match="perfect" size="1160" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="3000" id="com.ibm.rcp.eclipse.emf.feature" match="perfect" size="2969" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20130829-1400"/>
+						<feature download-size="1589" id="com.ibm.rcp.eclipse.gef.feature" match="perfect" size="1560" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20130829-1400"/>
+						<feature download-size="2346" id="com.ibm.rcp.eclipse.platform.feature" match="perfect" size="2346" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20130829-1400"/>
+						<feature download-size="12042" id="com.ibm.rcp.eclipse.rcp.ui.feature" match="perfect" size="12019" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20130829-1400"/>
+						<feature download-size="1408" id="com.ibm.rcp.eclipse.xsd.feature" match="perfect" size="1377" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20130829-1400"/>
+						<feature download-size="5741" id="com.ibm.rcp.esupport.client.feature" match="perfect" size="7623" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1459" id="com.ibm.esupport.client.product.SSC4TNF.feature" match="perfect" size="2526" url="jar:${installer.root}/updateSite.zip!/" version="4.1.1.20131002-1404"/>
+						<feature download-size="161" id="com.ibm.rcp.locationmanager.feature" match="perfect" size="130" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="131" id="com.ibm.rcp.locationmanager.ui.feature" match="perfect" size="103" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="202" id="com.ibm.rcp.ws.axis.feature" match="perfect" size="173" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="274" id="com.ibm.rcp.managedsettings.feature" match="perfect" size="248" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="132" id="com.ibm.rcp.managedsettings.portal.feature" match="perfect" size="106" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="352" id="com.ibm.rcp.net.feature" match="perfect" size="323" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1346" id="com.ibm.rcp.personality.default.feature" match="perfect" size="1313" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="240" id="com.ibm.rcp.personality.framework.feature" match="perfect" size="209" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="7346" id="com.ibm.rcp.platform.feature" match="perfect" size="10106" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="539" id="com.ibm.rcp.portal.app.ui.feature" match="perfect" size="511" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="469" id="com.ibm.rcp.portal.catalog.ui.feature" match="perfect" size="442" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1195" id="com.ibm.rcp.portal.feature" match="perfect" size="1198" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="988" id="com.ibm.rcp.portletcontainer.feature" match="perfect" size="1042" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="181" id="com.ibm.rcp.portletviewer.feature" match="perfect" size="154" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="331" id="com.ibm.rcp.propertybroker.feature" match="perfect" size="300" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="222" id="com.ibm.rcp.propertybroker.swt.feature" match="perfect" size="191" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1137" id="com.ibm.rcp.provisioning.ui.feature" match="perfect" size="1111" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="660" id="com.ibm.rcp.rte.feature" match="perfect" size="633" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="809" id="com.ibm.rcp.security.feature" match="perfect" size="781" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="118" id="com.ibm.rcp.sharedbundle.ui.feature" match="perfect" size="87" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="324" id="com.ibm.rcp.sync.feature" match="perfect" size="297" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="250" id="com.ibm.rcp.syncui.feature" match="perfect" size="224" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="197" id="com.ibm.rcp.syncui.scheduler.feature" match="perfect" size="168" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="280" id="com.ibm.rcp.textanalyzer.feature" match="perfect" size="253" url="jar:${installer.root}/updateSite.zip!/" version="6.2.4.201212180934"/>
+						<feature download-size="275" id="com.ibm.rcp.topologyhandler.ui.feature" match="perfect" size="247" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="655" id="com.ibm.rcp.ui.browser.feature" match="perfect" size="628" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="240" id="com.ibm.rcp.ui.browser.launcher.feature" match="perfect" size="257" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="17592" id="com.ibm.rcp.xulrunner.runtime.feature" match="perfect" size="29687" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="193" id="com.ibm.rcp.ui.browser.portal.feature" match="perfect" size="166" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="3123" id="com.ibm.rcp.ui.widgets.feature" match="perfect" size="3098" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1801" id="org.apache.axis.feature" match="perfect" size="1920" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1749" id="org.apache.commons.feature" match="perfect" size="1719" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="3361" id="org.apache.derby.feature" match="perfect" size="3627" url="jar:${installer.root}/updateSite.zip!/" version="10.5.3.1-1002448"/>
+						<feature download-size="87" id="org.osgi.service.webapplication.feature" match="perfect" size="60" url="jar:${installer.root}/updateSite.zip!/" version="1.0.1.20131002-1404"/>
+						<feature download-size="740" id="org.apache.myfaces.feature" match="perfect" size="787" url="jar:${installer.root}/updateSite.zip!/" version="1.1.2.20131002-1404"/>
+						<feature download-size="285" id="com.ibm.rcp.os.ui.feature" match="perfect" size="259" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="5385" id="com.ibm.rcp.eclipse.jdt.feature" match="perfect" size="5359" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20130829-1400"/>
+						<feature download-size="9140" id="com.ibm.rcp.eclipse.sdk.subset.feature" match="perfect" size="9309" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20130829-1400"/>
+						<feature download-size="1045" id="com.ibm.rcp.webcontainer.jspcompilerbridge.feature" match="perfect" size="1085" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="86" id="com.ibm.rcp.site.anchor.shared.feature" match="perfect" shared="true" size="57" url="jar:${installer.root}/updateSite.zip!/" version="6.1.1"/>
+						<feature download-size="588" id="com.ibm.rcp.composite.container.feature" match="perfect" size="560" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1007" id="com.ibm.rcp.feedreader.feature" match="perfect" size="973" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="131" id="com.ibm.rcp.threading.monitor.feature" match="perfect" size="102" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="325" id="com.ibm.rcp.feeds.parser.feature" match="perfect" size="307" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="176" id="com.ibm.rcp.dynamic.extension.feature" match="perfect" size="148" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="2184" id="com.ibm.rcp.livetext.feature" match="perfect" size="3056" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="176" id="com.ibm.rcp.toolbox.ca.feature" match="perfect" size="147" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="209" id="com.ibm.rcp.toolbox.ca.provider.feature" match="perfect" size="179" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1325" id="com.ibm.rcp.toolbox.feature" match="perfect" size="1297" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="265" id="com.ibm.rcp.toolbox.feeds.provider.feature" match="perfect" size="237" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="241" id="com.ibm.rcp.toolbox.google.provider.feature" match="perfect" size="213" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="228" id="com.ibm.rcp.toolbox.prov.provider.feature" match="perfect" size="200" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="357" id="com.ibm.rcp.toolbox.web.provider.feature" match="perfect" size="329" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="2341" id="com.ibm.rcp.eclipse.platform.help.feature" match="perfect" size="2316" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="2115" id="com.ibm.rcp.esupport.client.ui.feature" match="perfect" size="2081" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="4436" id="com.ibm.rcp.icu.feature" match="perfect" size="4411" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20130829-1400"/>
+						<feature download-size="2799" id="com.ibm.micro.feature" match="perfect" size="2769" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="714" id="com.ibm.mqttclient.feature" match="perfect" size="685" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="237" id="com.ibm.micro.admin.feature" match="perfect" size="209" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="232" id="com.ibm.micro.client.feature" match="perfect" size="205" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="2143" id="com.ibm.mqttclient.jms.feature" match="perfect" size="2165" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1611" id="com.ibm.rcp.servlet.jwl.feature" match="perfect" size="1716" url="jar:${installer.root}/updateSite.zip!/" version="3.0.8.20131002-1404"/>
+						<feature download-size="270" id="org.apache.portals.bridges.feature" match="perfect" size="270" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1260" id="org.apache.struts.feature" match="perfect" size="1370" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="2007" id="com.ibm.rcp.servlet.jsf.ext.feature" match="perfect" size="1983" url="jar:${installer.root}/updateSite.zip!/" version="3.0.8.20131002-1404"/>
+						<feature download-size="8109" id="com.ibm.langware.core.runtime.feature" match="perfect" size="8083" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="276" id="com.ibm.langware.lexical.annotator.runtime.feature" match="perfect" size="249" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="756" id="com.ibm.langware.rules.annotator.runtime.feature" match="perfect" size="729" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="2384" id="org.apache.uima.runtime.feature" match="perfect" size="2372" url="jar:${installer.root}/updateSite.zip!/" version="2.3.0.incubating"/>
+						<feature download-size="158" id="com.ibm.langware.annotation.uima.feature" match="perfect" size="133" url="jar:${installer.root}/updateSite.zip!/" version="6.2.4.201111100545"/>
+						<feature download-size="94" id="com.ibm.langware.annotator.dictterms.feature" match="perfect" size="111" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="125" id="com.ibm.rcp.textanalyzer.uima.feature" match="perfect" size="99" url="jar:${installer.root}/updateSite.zip!/" version="6.2.4.201111100545"/>
+						<feature download-size="316" id="com.ibm.rcp.runtimes.desktop.dev.feature" match="perfect" size="1034" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="1950" id="com.ibm.langware.v27.dic.zh_CN.feature" match="perfect" size="2642" url="jar:${installer.root}/updateSite.zip!/" version="2.7.2.201111100545"/>
+						<feature download-size="2116" id="com.ibm.langware.v27.dic.zh_TW.feature" match="perfect" size="3021" url="jar:${installer.root}/updateSite.zip!/" version="2.7.2.201111100545"/>
+						<feature download-size="843" id="com.ibm.langware.v5.dic.de_CH.feature" match="perfect" size="1158" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="873" id="com.ibm.langware.v5.dic.de_DE_Reform.feature" match="perfect" size="1204" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="298" id="com.ibm.langware.v5.dic.es_ES.feature" match="perfect" size="424" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="437" id="com.ibm.langware.v5.dic.fr_FR.feature" match="perfect" size="651" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="416" id="com.ibm.langware.v5.dic.it_IT.feature" match="perfect" size="665" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="362" id="com.ibm.langware.v5.dic.pt_BR.feature" match="perfect" size="535" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+						<feature download-size="272" id="com.ibm.langware.v5.dic.ca_CT.feature" match="perfect" size="386" url="jar:${installer.root}/updateSite.zip!/" version="7.2.0.201111100545"/>
+					</requirements>
+				</installfeature>
+				<installfeature default="true" id="Platform.Rcp.Extensions" name="RCP Platform Extension" required="true" show="false" version="9.0.20131214-0312">
+					<requirements>
+						<feature download-size="188" id="com.ibm.rcp.g11n.feature" match="perfect" shared="true" size="174" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="298" id="com.ibm.content.operations.registry.feature" match="perfect" shared="true" size="265" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="675" id="com.ibm.rcp.search.feature" match="perfect" shared="true" size="645" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="147" id="com.ibm.rcp.contentspots.feature" match="perfect" shared="true" size="117" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="205" id="com.ibm.siapi.feature" match="perfect" shared="true" size="191" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="128" id="com.ibm.rcp.portal.catalog.doc.feature" match="perfect" shared="true" size="110" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="117" id="com.ibm.rcp.ui.browser.content.feature" match="perfect" shared="true" size="100" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="91" id="com.ibm.rcp.ui.browser.content.nl1.feature" match="perfect" shared="true" size="69" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="466" id="com.ibm.rcp.portal.catalog.doc.nl1.feature" match="perfect" shared="true" size="475" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+					</requirements>
+				</installfeature>
+				<installfeature id="Platform.Notes.Extensions" name="Notes Platform Extension" required="true" show="false" version="9.0.20131214-0312">
+					<requirements>
+						<feature download-size="661" id="com.ibm.rcp.notes.util.feature" match="perfect" shared="true" size="712" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="140" id="com.ibm.directoryservices.feature" match="perfect" shared="true" size="121" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="181" id="com.ibm.csi.feature" match="perfect" shared="true" size="155" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="2744" id="com.ibm.csi.notes.feature" match="perfect" shared="true" size="2677" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="162" id="com.ibm.notes.ipc.feature" match="perfect" shared="true" size="135" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="2716" id="com.ibm.rcp.pim.views.feature" match="perfect" shared="true" size="2690" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="567" id="com.ibm.rcp.pim.widgets.feature" match="perfect" shared="true" size="541" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="3478" id="com.ibm.notes.java.api.feature" match="perfect" shared="true" size="3835" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="151" id="com.ibm.csi.notes.nl1.feature" match="perfect" shared="true" size="127" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="127" id="com.ibm.notes.java.api.nl1.feature" match="perfect" shared="true" size="104" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="422" id="com.ibm.rcp.pim.views.nl1.feature" match="perfect" shared="true" size="398" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="104" id="com.ibm.rcp.pim.widgets.nl1.feature" match="perfect" shared="true" size="80" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+					</requirements>
+				</installfeature>
+				<installfeature default="true" id="Notes.XPages" name="Notes XPages" required="true" show="false" version="9.0.20131214-0312">
+					<requirements>
+						<feature download-size="563" id="com.ibm.commons.feature" match="perfect" mergeaction="add" shared="true" size="617" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131004-1200"/>
+						<feature download-size="118" id="com.ibm.commons.jdbc.feature" match="perfect" mergeaction="add" shared="true" size="98" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131004-1200"/>
+						<feature download-size="446" id="com.ibm.designer.domino.runtime.core.feature" match="perfect" mergeaction="add" shared="true" size="439" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131004-1200"/>
+						<feature download-size="154" id="com.ibm.designer.domino.runtime.feature" match="perfect" mergeaction="add" shared="true" size="147" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131004-1200"/>
+						<feature download-size="21011" id="com.ibm.xsp.feature" match="perfect" mergeaction="add" shared="true" size="29580" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131004-1200"/>
+						<feature download-size="260" id="com.ibm.designer.domino.api.feature" match="perfect" mergeaction="add" shared="true" size="259" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131004-1200"/>
+						<feature download-size="634" id="com.ibm.jscript.feature" match="perfect" mergeaction="add" shared="true" size="663" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131004-1200"/>
+						<feature download-size="604" id="com.ibm.designer.domino.lib.misc.feature" match="perfect" mergeaction="add" shared="true" size="627" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131004-1200"/>
+						<feature download-size="350" id="com.ibm.designer.domino.lib.xml.feature" match="perfect" mergeaction="add" shared="true" size="347" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131004-1200"/>
+						<feature download-size="438" id="com.ibm.designer.domino.lib.xml.xstream.feature" match="perfect" mergeaction="add" shared="true" size="466" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131004-1200"/>
+						<feature download-size="1568" id="com.ibm.designer.domino.lib.xsp.feature" match="perfect" mergeaction="add" shared="true" size="1686" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131004-1200"/>
+						<feature download-size="1341" id="com.ibm.rcp.spellcheck.server.feature" match="perfect" mergeaction="add" shared="true" size="1492" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131002-1404"/>
+						<feature download-size="2384" id="org.apache.wink.feature" match="perfect" mergeaction="add" shared="true" size="2653" url="jar:${installer.root}/updateSite.zip!/" version="1.1.2.20131004-1200"/>
+						<feature download-size="117" id="com.ibm.wink.feature" match="perfect" mergeaction="add" shared="true" size="83" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.v00_00_20131004-1200"/>
+						<feature download-size="4177" id="com.ibm.xsp.extlib.feature" match="perfect" mergeaction="add" shared="true" size="4249" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.v00_00_20131004-1200"/>
+						<feature download-size="169" id="com.ibm.commons.nl1.feature" match="perfect" shared="true" size="159" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="93" id="com.ibm.commons.jdbc.nl1.feature" match="perfect" shared="true" size="75" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="195" id="com.ibm.designer.domino.runtime.core.nl1.feature" match="perfect" shared="true" size="159" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="988" id="com.ibm.xsp.nl1.feature" match="perfect" shared="true" size="996" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="1204" id="com.ibm.xsp.extlib.nl1.feature" match="perfect" shared="true" size="1197" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.v00_00_20131213-0437"/>
+						<feature download-size="89" id="com.ibm.domino.das.nl1.feature" match="perfect" shared="true" size="82" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.v00_00_20131213-0437"/>
+					</requirements>
+				</installfeature>
+				<installfeature default="true" id="Notes.Plugin" name="Notes Plugin Integration" required="true" show="false" version="9.0.20131214-0312">
+					<requirements>
+						<feature download-size="8828" id="com.ibm.notes.client.feature" match="perfect" shared="true" size="14475" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="314" id="com.ibm.notes.branding.feature" match="perfect" shared="true" size="282" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="611" id="com.ibm.notes.links.feature" match="perfect" shared="true" size="536" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="497" id="com.ibm.notes.gettingstarted.feature" match="perfect" shared="true" size="935" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="179" id="com.ibm.notes.pd.feature" match="perfect" shared="true" size="183" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="487" id="com.ibm.notes.document.container.feature" match="perfect" shared="true" size="390" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="30754" id="com.ibm.notes.client.nl1.feature" match="perfect" shared="true" size="35160" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="29" id="com.ibm.notes.client.win32.nl1.feature" match="perfect" os="win32" shared="true" size="23" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="430" id="com.ibm.notes.branding.nl1.feature" match="perfect" shared="true" size="424" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="686" id="com.ibm.notes.gettingstarted.nl1.feature" match="perfect" shared="true" size="1199" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="58" id="com.ibm.notes.pd.nl1.feature" match="perfect" shared="true" size="97" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="41" id="com.ibm.notes.document.container.nl1.feature" match="perfect" shared="true" size="34" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+					</requirements>
+				</installfeature>
+				<installfeature default="true" description="Composite Application Infrastructure features for Notes" id="Notes.CAI" name="Notes.CAI" required="true" show="false" version="9.0.20131214-0312">
+					<requirements>
+						<feature download-size="514" id="com.ibm.notes.view.container.feature" match="perfect" shared="true" size="417" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="55" id="com.ibm.notes.view.container.nl1.feature" match="perfect" shared="true" size="48" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+					</requirements>
+				</installfeature>
+				<installfeature default="true" id="PIM.Core" name="Notes Java Views and Search" required="true" show="false" version="9.0.20131214-0312">
+					<requirements>
+						<feature download-size="166" id="com.ibm.notes.notesviews.feature" match="perfect" shared="true" size="159" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="1831" id="com.ibm.notes.pim.feature" match="perfect" shared="true" size="1791" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="322" id="com.ibm.notes.dip.feature" match="perfect" shared="true" size="287" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="96" id="com.ibm.notes.dip.nl1.feature" match="perfect" shared="true" size="90" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="274" id="com.ibm.notes.pim.nl1.feature" match="perfect" shared="true" size="267" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="42" id="com.ibm.notes.notesviews.nl1.feature" match="perfect" shared="true" size="35" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+					</requirements>
+				</installfeature>
+				<installfeature default="true" id="Search" name="Search" required="true" show="false" version="9.0.20131214-0312">
+					<requirements>
+						<feature download-size="249" id="com.ibm.notes.search.common.feature" match="perfect" shared="true" size="214" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="162" id="com.ibm.notes.search.googledesktop.feature" match="perfect" shared="true" size="132" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="116" id="com.ibm.notes.search.beagle.feature" match="perfect" shared="true" size="81" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="115" id="com.ibm.notes.search.spotlight.feature" match="perfect" shared="true" size="80" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="126" id="com.ibm.rcp.search.engines.google.feature" match="perfect" shared="true" size="91" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="128" id="com.ibm.rcp.search.engines.yahoo.feature" match="perfect" shared="true" size="93" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="132" id="com.ibm.notes.iopes.search.feature" match="perfect" shared="true" size="97" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="179" id="com.ibm.notes.search.windowsdesktop.feature" match="perfect" shared="true" size="144" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="116" id="com.ibm.notes.search.tracker.feature" match="perfect" shared="true" size="81" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="56" id="com.ibm.notes.mailarchivesearch.feature" match="perfect" shared="true" size="49" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="41" id="com.ibm.notes.search.common.nl1.feature" match="perfect" shared="true" size="35" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="230" id="com.ibm.notes.search.googledesktop.nl1.feature" match="perfect" shared="true" size="233" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="16" id="com.ibm.notes.search.tracker.nl1.feature" match="perfect" shared="true" size="10" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="16" id="com.ibm.notes.search.spotlight.nl1.feature" match="perfect" shared="true" size="10" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="27" id="com.ibm.rcp.search.engines.google.nl1.feature" match="perfect" shared="true" size="21" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="27" id="com.ibm.rcp.search.engines.yahoo.nl1.feature" match="perfect" shared="true" size="21" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="29" id="com.ibm.notes.search.windowsdesktop.nl1.feature" match="perfect" shared="true" size="23" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="34" id="com.ibm.notes.mailarchivesearch.nl1.feature" match="perfect" shared="true" size="28" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+					</requirements>
+				</installfeature>
+				<installfeature default="true" id="Sametime" name="Sametime" required="true" show="false" version="9.0.20131214-0312">
+					<requirements>
+						<feature download-size="204" id="com.ibm.collaboration.realtime.browser.feature" match="greaterOrEqual" shared="true" size="171" url="jar:${installer.root}/updateSite.zip!/" version="8.5.2.20130926-0645"/>
+						<feature download-size="295" id="com.ibm.collaboration.realtime.chat.logging.feature" match="greaterOrEqual" shared="true" size="262" url="jar:${installer.root}/updateSite.zip!/" version="8.5.2.20130926-0645"/>
+						<feature download-size="389" id="com.ibm.collaboration.realtime.core.feature" match="greaterOrEqual" shared="true" size="419" url="jar:${installer.root}/updateSite.zip!/" version="8.5.2.20130926-0645"/>
+						<feature download-size="615" id="com.ibm.collaboration.realtime.im.community.feature" match="greaterOrEqual" shared="true" size="581" url="jar:${installer.root}/updateSite.zip!/" version="8.5.2.20130926-0645"/>
+						<feature download-size="418" id="com.ibm.collaboration.realtime.messages.feature" match="greaterOrEqual" shared="true" size="385" url="jar:${installer.root}/updateSite.zip!/" version="8.5.2.20130926-0645"/>
+						<feature download-size="350" id="com.ibm.collaboration.realtime.people.feature" match="greaterOrEqual" shared="true" size="317" url="jar:${installer.root}/updateSite.zip!/" version="8.5.2.20130926-0645"/>
+						<feature download-size="215" id="com.ibm.collaboration.realtime.rtc.core.feature" match="greaterOrEqual" shared="true" size="209" url="jar:${installer.root}/updateSite.zip!/" version="8.5.2.20130926-0645"/>
+						<feature download-size="1481" id="com.ibm.collaboration.realtime.ui.feature" match="greaterOrEqual" shared="true" size="1516" url="jar:${installer.root}/updateSite.zip!/" version="8.5.2.20130926-0645"/>
+						<feature download-size="124" id="com.ibm.rcp.realtime.livenames.feature" match="greaterOrEqual" shared="true" size="92" url="jar:${installer.root}/updateSite.zip!/" version="8.5.2.20130926-0645"/>
+					</requirements>
+				</installfeature>
+				<installfeature default="true" description="Toolbox" id="Toolbox" name="Toolbox" required="true" show="false" version="9.0.20131214-0312">
+					<requirements>
+						<feature download-size="813" id="com.ibm.notes.toolbox.feature" match="perfect" shared="true" size="684" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="99" id="com.ibm.notes.toolbox.langware.feature" match="perfect" shared="true" size="80" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="160" id="com.ibm.notes.toolbox.nl1.feature" match="perfect" shared="true" size="136" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+					</requirements>
+				</installfeature>
+				<installfeature default="true" description="Roaming Service" id="Roaming" name="Roaming" required="true" show="false" version="9.0.20131214-0312">
+					<requirements>
+						<feature download-size="227" id="com.ibm.rcp.roaming.service.feature" match="perfect" shared="true" size="201" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="247" id="com.ibm.notes.roaming.provider.feature" match="perfect" shared="true" size="221" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131022-0932"/>
+						<feature download-size="121" id="com.ibm.rcp.roaming.service.nl1.feature" match="perfect" shared="true" size="98" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+						<feature download-size="138" id="com.ibm.notes.roaming.provider.nl1.feature" match="perfect" shared="true" size="115" url="jar:${installer.root}/updateSite.zip!/" version="9.0.1.20131213-0437"/>
+					</requirements>
+				</installfeature>
+				<!-- CONNECTIONS.ADDON.UNINSTALL -->
+				<!-- EXTLIB.ADDON.UNINSTALL -->
+				<!-- ***************************************************************** -->
+				<!--                                                                   -->
+				<!-- IBM Confidential                                                  -->
+				<!--                                                                   -->
+				<!-- OCO Source Materials                                              -->
+				<!--                                                                   -->
+				<!-- Copyright IBM Corp. 2006, 2007                                    -->
+				<!--                                                                   -->
+				<!-- The source code for this program is not published or otherwise    -->
+				<!-- divested of its trade secrets, irrespective of what has been      -->
+				<!-- deposited with the U.S. Copyright Office.                         -->
+				<!--                                                                   -->
+				<!-- ***************************************************************** -->
+			</install>
+		</object-data>
+	</domain-object>
+</ibm-portal-composite>
